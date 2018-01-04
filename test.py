@@ -1,7 +1,7 @@
 # coding: UTF-8
 
 #base
-print ("Hello, World!")
+print ("Hello, World! hello")
 print ("Bye!")
 print ("あいうえお")
 
@@ -187,3 +187,6 @@ print (a2.name)						#変数でアクセス
 print (a2.getName() )				#メソッドでアクセス
 
 print (TestClass.useCount)			#クラス変数にアクセス
+
+del a1
+print (TestClass.useCount)			
