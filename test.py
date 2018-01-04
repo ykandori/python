@@ -1,7 +1,6 @@
 # coding: UTF-8
 
-#comment
-
+#base
 print ("Hello, World!")
 print ("Bye!")
 print ("あいうえお")
