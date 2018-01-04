@@ -161,8 +161,7 @@ print (n)
 
 #クラス
 class TestClass:
-	"""example class"""				# 三重クォートによるコメント
-	
+	"""example class"""				# 三重クォートによるコメント	
 	useCount = 0
 	
 	def __init__(self):				# コンストラクタ
@@ -189,4 +188,5 @@ print (a2.getName() )				#メソッドでアクセス
 print (TestClass.useCount)			#クラス変数にアクセス
 
 del a1
-print (TestClass.useCount)			
+print (TestClass.useCount)
+
