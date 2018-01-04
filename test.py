@@ -186,7 +186,7 @@ print (a2.name)						#変数でアクセス
 print (a2.getName() )				#メソッドでアクセス
 
 print (TestClass.useCount)			#クラス変数にアクセス
-
+a3 = TestClass()
+print (TestClass.useCount)
 del a1
 print (TestClass.useCount)
-
